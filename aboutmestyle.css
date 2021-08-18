@@ -81,9 +81,7 @@ padding-left: 0px;}
   #logo{ position: absolute;
   top: 470px; left:50%; right: 50%;
   transform: translate(-50%, -50%);/*이 부분이 가운데로 정렬시킴*/
-  display: flex;
-justify-content: center;
-align-items: center;
+
 
 }
  #grid{ display: grid;
