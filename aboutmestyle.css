@@ -132,4 +132,13 @@ transform: translate(-50%, -50%);
   padding-right: 30px;
 margin-bottom: 0px;}
 
+#logiccontent{
+  margin-left: 40px;
+  margin-right: 40px;
+padding-left:0px;
+padding-right: 0px;
+font-size: 28px;
+text-align: center;
+font-family: Arial;}
+
 }
