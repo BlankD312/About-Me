@@ -54,7 +54,8 @@
 border-radius:50%;
 background:#f0f0f0;
 position:absolute;
-top:150px;left:193px;}
+top:150px;left:193px;
+text-align: center;}
 
 img{ position:absolute;
 left:260px;top:340px;}
@@ -78,10 +79,17 @@ padding-left: 0px;}
 }
 @media(max-width: 737px) {
   #logo{ position: absolute;
-  top: 380px; left:120px; }
+  top: 470px; left:50%; right: 50%;
+  transform: translate(-50%, -50%);/*이 부분이 가운데로 정렬시킴*/
+  display: flex;
+justify-content: center;
+align-items: center;
+
+}
  #grid{ display: grid;
  grid-template-rows: 1fr 1.5fr;
-grid-template-columns: 1fr;}
+grid-template-columns: 1fr;
+}
 h3{ text-align: center;
    padding-left: 80px;
  padding-right:80px;
@@ -90,8 +98,14 @@ margin-top: 0px;}
  h1{ text-align: center;
   padding-left: 30px;
   padding-right: 30px;}
-  img{ position: absolute;
-  top: 570px; left: 190px;}
+  img{ /*position: absolute;
+  top: 570px; left: 190px; */
+text-align: center;
+
+position: absolute;
+top: 620px; left:50%; right: 50%;
+transform: translate(-50%, -50%);
+}
   h2{ text-align: center;
   padding-left: 30px;
   padding-right: 30px;
