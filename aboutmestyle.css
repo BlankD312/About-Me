@@ -1,0 +1,84 @@
+
+
+  h1 { padding-left : 152px;
+       margin-bottom : 20px;
+       margin-top : 60px;
+       font-size : 60px;
+       font-family : Arial;
+       color : black; }
+       a{text-decoration: none;
+        }
+
+        h2 { font-family : Arial;
+    padding-left : 250px;
+    padding-top : 220px;
+    display : inline-block; }
+
+  .Hobby { width : 290px;
+           height : 90px;
+           background : #E9E9E9; /* #65CABC = mint */
+           border-radius : 13px;
+           text-align : center;
+           line-height : 88px;
+           font-size : 35px;
+           font-weight : bold;
+           color : black;
+           margin-left : 40px;
+           margin-top : 20px;
+           display : inline-block;
+           font-family : Arial;
+
+         }
+  #box { text-align : center;
+         padding-right : 40px;
+        font-family : Arial;
+        position: relative;
+      left:0; top:0; }
+
+
+  h3 { font-family : Arial;
+       font-weight : lighter;
+       font-size : 22px;
+       padding-left : 70px;
+       padding-right : 150px;
+       padding-top : 80px;
+        display : inline-block;
+       }
+  #grid{ display : grid;
+    grid-template-columns : 1fr 2fr; }
+
+  br { line-height : 1px; }
+
+  #logo{ width:200px;
+  height:200px;
+border-radius:50%;
+background:#f0f0f0;
+position:absolute;
+top:150px;left:193px;}
+
+img{ position:absolute;
+left:260px;top:340px;}
+
+@media(max-width: 1060px) {
+  h3{ font-size: 24px;
+  padding-top: 40px;
+padding-left: 0px;}
+  #logo{ position: absolute;
+  top:280px;left: 130px;}
+  h2{ padding-left: 185px;
+  padding-top: 230px;}
+  #grid{ display: grid;
+          grid-template-columns: 1fr 1fr;}
+
+          h1{ padding-left: 100px;}
+          img{ position: absolute;
+          top: 470px; left: 200px;
+        width: 80px;}
+
+}
+@media(max-width: 737px) {
+  #logo{ position: absolute;
+  top: 380px; left:160px; }
+
+
+}
