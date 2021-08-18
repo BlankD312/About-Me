@@ -132,7 +132,8 @@ transform: translate(-50%, -50%);
   h2{ text-align: center;
   padding-left: 30px;
   padding-right: 30px;
-margin-bottom: 0px;}
+margin-bottom: 0px;
+font-size: 27px;}
 
 #logiccontent{
   margin-left: 40px;
