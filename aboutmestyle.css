@@ -35,6 +35,14 @@
         position: relative;
       left:0; top:0; }
 
+#logiccontent{ padding-left: 80px;
+padding-right: 80px;
+text-align: left;
+margin: 68px;
+padding-left: 90px;
+font-size: 30px;
+font-family: Arial;
+line-height: 185%;/* 글자대비 */}
 
   h3 { font-family : Arial;
        font-weight : lighter;
@@ -58,7 +66,22 @@ top:150px;left:193px;
 text-align: center;}
 
 img{ position:absolute;
-left:260px;top:340px;}
+left:262px;top:340px;}
+
+
+@media(min-width:1061px) {  h2{ padding-left: 500px;
+padding-bottom: 0px;
+padding-top: 20px;
+margin-bottom: 0px;
+font-size: 30px;}
+#grid{ display:grid;
+  grid-template-columns: 1fr;}
+h3{ padding-left: 500px;
+padding-top: 0px;
+margin-top: 0px;}
+img{ width:80px;}
+}
+
 
 @media(max-width: 1060px) {
   h3{ font-size: 24px;
