@@ -11,6 +11,7 @@
     <div class="Hobby">Logic</div>
     <div class="Hobby">Art</div>
     <div class="Hobby">Computer</div>
+    <div id="logo"></div>
 
     </div>
 
@@ -20,15 +21,20 @@
      <h2> <!-- This makes me more creative and suggests new ways to think. <p> I really enjoy to think about this,
     and I am sure this will be a good source</p><p>when I should think new ideas. </p> -->
 
-      <p>Blank D</p>  <div id="logo">
-
-        </div></h2>
+      <p>Blank D</p> </h2>
   <h3>  I like thinking and analyze something. I know I will be a great person. I don't have a dream but
     I have a gut and my own interests. And I am finding my happiness.</h3>
     </div>
 
-<img src="logo.png"
-alt="logo" width="6.5%"/>
+
+
+<!-- i don't know why but i have to make short name, if it's long,
+  it is not working, or maybe i shouldn't use some othe signs.-->
+
+
+   <img src="logo.png"
+   alt="logo" width="6.5%"/>
+
     <style media="screen">
 
       h1 { padding-left : 152px;
@@ -37,6 +43,11 @@ alt="logo" width="6.5%"/>
            font-size : 60px;
            font-family : Arial;
             }
+
+            h2 { font-family : Arial;
+        padding-left : 250px;
+        padding-top : 220px;
+        display : inline-block; }
 
       .Hobby { width : 290px;
                height : 90px;
@@ -55,12 +66,11 @@ alt="logo" width="6.5%"/>
              }
       #box { text-align : center;
              padding-right : 40px;
-            font-family : Arial; }
+            font-family : Arial;
+            position: relative;
+          left:0; top:0; }
 
-      h2 { font-family : Arial;
-           padding-left : 250px;
-           padding-top : 220px;
-           display : inline-block; }
+
       h3 { font-family : Arial;
            font-weight : lighter;
            font-size : 22px;
@@ -79,10 +89,42 @@ alt="logo" width="6.5%"/>
     border-radius:50%;
   background:#f0f0f0;
 position:absolute;
-top:300px;left:200px;}
+top:0px;left:200px;}
 
 img{ position:absolute;
 left:260px;top:340px;}
+
+@media only screen and (min-device-width: 375px) and
+ (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+
+  #box { text-align : left;
+         padding-right : 40px;
+        font-family : Arial;
+     }
+
+      #logo{  width:100px;
+      height:100px;
+    border-radius:50%;
+  background:#f0f0f0;
+position:absolute;
+top:510px;left:90px; }
+
+h2 { font-family : Arial;
+     padding-left : 140px;
+     padding-top : 200px;
+     display : inline-block; }
+
+     h1 { text-align:left;
+     padding-left: 40px; }
+
+     h3 { padding-left: 0px; }
+
+     #grid{ display : block; }
+
+}
+
+
+
 
     </style>
 
