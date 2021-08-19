@@ -35,14 +35,49 @@
         position: relative;
       left:0; top:0; }
 
-#logiccontent{ padding-left: 80px;
-padding-right: 80px;
+#logiccontent{ padding-left:80px;
+  padding-right: 80px;
+  padding-bottom: 60px;
+
 text-align: left;
-margin: 68px;
-padding-left: 90px;
+margin-left: 68px;
+margin-right: 68px;
+margin-top: 68px;
+margin-bottom: 20px;
+
 font-size: 30px;
 font-family: Arial;
-line-height: 185%;/* 글자대비 */}
+line-height: 185%;/* 글자대비 */
+border-bottom: 3px black dotted;
+boo}
+
+#Quiz1{ margin-left:70px;
+  margin-right: 60px;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 60px;
+  padding-top: 0px;
+
+text-align: left;
+
+font-size: 24px;
+font-family: Arial;
+line-height: 150%;
+width: 100%;
+height: 300px;
+background: #E9E9E9;
+border-radius: 20px;}
+
+#Quiz1answer {font-size: 24px;
+font-family: Arial;
+line-height: 150%;
+padding-top: 20px;
+padding-right: 40px;
+margin-left: 190px;}
+
+#grid2{ display: grid;
+grid-template-columns: 1fr 1fr;}
 
   h3 { font-family : Arial;
        font-weight : lighter;
@@ -65,8 +100,11 @@ position:absolute;
 top:150px;left:193px;
 text-align: center;}
 
-img{ position:absolute;
+#logo2{ position:absolute;
 left:262px;top:340px;}
+
+#Quizpicture{ position:absolute;
+right: 5px; top:630px;}
 
 
 @media(min-width:1061px) {  h2{ padding-left: 500px;
@@ -79,7 +117,7 @@ font-size: 30px;}
 h3{ padding-left: 500px;
 padding-top: 0px;
 margin-top: 0px;}
-img{ width:80px;}
+#logo2{ width:80px;}
 }
 
 
@@ -95,7 +133,7 @@ padding-left: 0px;}
           grid-template-columns: 1fr 1fr;}
 
           h1{ padding-left: 100px;}
-          img{ position: absolute;
+          #logo2{ position: absolute;
           top: 470px; left: 200px;
         width: 80px;}
 
@@ -111,6 +149,13 @@ padding-left: 0px;}
  grid-template-rows: 1fr 1.5fr;
 grid-template-columns: 1fr;
 }
+
+#grid2{ display: grid;
+grid-template-rows: 1fr 1.5fr;
+grid-template-columns: 1fr; }
+
+
+
 h3{ text-align: center;
    padding-left: 40px;
  padding-right:40px;
@@ -121,7 +166,7 @@ line-height: 150%;}
  h1{ text-align: center;
   padding-left: 30px;
   padding-right: 30px;}
-  img{ /*position: absolute;
+  #logo2{ /*position: absolute;
   top: 570px; left: 190px; */
 text-align: center;
 
@@ -146,3 +191,26 @@ text-align: center;
 font-family: Arial;}
 
 }
+
+#Quiz1{ margin-left:20px;
+margin-right:20px;
+width: 80%;
+height: 80%;
+text-align: left;
+padding-top: 10px;
+padding-left: 10%;
+padding-right:10%;
+margin-bottom: 0px;
+padding-bottom: 60px;
+
+}
+
+#Quiz1answer { margin-left: 30px;
+margin-top: 200px;}
+#Quizpicture { position: absolute;
+left:50%;right:50%;
+  transform: translate(-50%, -50%);top:1640px;
+
+}
+
+#box2{ text-align: center;}
