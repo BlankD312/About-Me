@@ -151,7 +151,7 @@ grid-template-columns: 1fr;
 }
 
 #grid2{ display: grid;
-grid-template-rows: 1fr 1.5fr;
+grid-template-rows: 1fr 700px;
 grid-template-columns: 1fr; }
 
 
@@ -195,7 +195,7 @@ font-family: Arial;}
 #Quiz1{ margin-left:16.5px;
 margin-right:40px;
 width: 80%;
-height: 80%;
+height: 530px;
 text-align: left;
 padding-top: 10px;
 padding-left: 6%;
@@ -205,12 +205,13 @@ padding-bottom: 60px;
 
 }
 
+
+
 #Quiz1answer { margin-left: 30px;
-margin-top: 140px;}
+padding-top: 250px;
+}
 #Quizpicture { position: absolute;
 left:50%;right:50%;
-  transform: translate(-50%, -50%);top:1640px;
+  transform: translate(-50%, -50%);top:1700px;}
 
-}
-
-#box2{ text-align: center;}
+details{padding-bottom: 200px;}
