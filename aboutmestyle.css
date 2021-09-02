@@ -57,15 +57,15 @@ boo}
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 60px;
-  padding-top: 0px;
+  padding-top: 10px;
 
 text-align: left;
 
 font-size: 24px;
 font-family: Arial;
 line-height: 150%;
-width: 100%;
-height: 300px;
+width: 80%;
+height: 550px;
 background: #E9E9E9;
 border-radius: 20px;}
 
@@ -104,7 +104,7 @@ text-align: center;}
 left:262px;top:340px;}
 
 #Quizpicture{ position:absolute;
-right: 5px; top:630px;}
+right: 5px; top:900px;}
 
 
 @media(min-width:1061px) {  h2{ padding-left: 500px;
@@ -118,8 +118,44 @@ h3{ padding-left: 500px;
 padding-top: 0px;
 margin-top: 0px;}
 #logo2{ width:80px;}
-}
+#grid2{ display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 900px;}
 
+#Quizpicture{ position:absolute;
+left: 580px; top:620px;
+width: 600px;}
+
+
+
+
+#Quiz1{ margin-left:70px;
+  margin-right: 60px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 0px;
+  padding-top: 10px;
+
+
+text-align: left;
+
+font-size: 24px;
+font-family: Arial;
+line-height: 150%;
+width: 60%;
+height: 550px;
+background: #E9E9E9;
+border-radius: 20px;}
+
+#Quiz1answer {font-size: 24px;
+font-family: Arial;
+line-height: 150%;
+padding-top: 13px;
+padding-right: 50px;
+margin-left: 0px;}
+}
 
 @media(max-width: 1060px) {
   h3{ font-size: 24px;
@@ -190,7 +226,7 @@ font-size: 28px;
 text-align: center;
 font-family: Arial;}
 
-}
+
 
 #Quiz1{ margin-left:16.5px;
 margin-right:40px;
@@ -215,3 +251,15 @@ left:50%;right:50%;
   transform: translate(-50%, -50%);top:1700px;}
 
 details{padding-bottom: 200px;}
+
+#art1{  position: absolute;
+left:50%;right:50%;
+  transform: translate(-50%, -50%); top:700px; }
+
+  #art1Explanation{ position: relative;
+  top: 700px;
+  left: 12px;
+  padding-bottom: 40px;
+
+text-align: center;}
+}
